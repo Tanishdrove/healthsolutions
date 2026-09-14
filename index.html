@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>P3 Health Solutions LLP – Trusted Diagnostic Services</title>
+  <meta name="description" content="P3 Health Solutions LLP provides accurate, affordable, and timely diagnostic services with NABL-certified quality standards. Book your test today." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER / NAVBAR
+  ============================================================ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+
+      <!-- Logo -->
+      <a href="#home" class="logo" aria-label="P3 Health Solutions Home">
+        <div class="logo__icon" aria-hidden="true">
+          <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="21" cy="21" r="21" fill="#00A8A8"/>
+            <path d="M21 8v26M8 21h26" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+            <circle cx="21" cy="21" r="7" stroke="#fff" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="logo__text">
+          <span class="logo__name">P3 Health Solutions</span>
+          <span class="logo__tagline">LLP</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a class="nav__link active" href="#home">Home</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#services">Services</a></li>
+          <li><a class="nav__link" href="#packages">Packages</a></li>
+          <li><a class="nav__link" href="#why-us">Why Us</a></li>
+          <li><a class="nav__link" href="#testimonials">Reviews</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA + Hamburger -->
+      <div class="header__actions">
+        <a href="#contact" class="btn btn--primary btn--sm">Book a Test</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Drawer -->
+    <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+      <ul class="mobile-nav__list">
+        <li><a class="mobile-nav__link" href="#home">Home</a></li>
+        <li><a class="mobile-nav__link" href="#about">About</a></li>
+        <li><a class="mobile-nav__link" href="#services">Services</a></li>
+        <li><a class="mobile-nav__link" href="#packages">Packages</a></li>
+        <li><a class="mobile-nav__link" href="#why-us">Why Us</a></li>
+        <li><a class="mobile-nav__link" href="#testimonials">Reviews</a></li>
+        <li><a class="mobile-nav__link" href="#contact">Contact</a></li>
+        <li><a class="mobile-nav__link btn btn--primary" href="#contact">Book a Test</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO SECTION
+    ============================================================ -->
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <div class="hero__badge">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="8" fill="#00A8A8"/><path d="M4 8l2.5 2.5L12 5" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          NABL Certified Laboratory
+        </div>
+        <h1 class="hero__heading" id="hero-heading">
+          Precision Diagnostics<br/>
+          <span class="text-teal">You Can Trust</span>
+        </h1>
+        <p class="hero__sub">
+          Accurate results, compassionate care, and fast turnaround — all under one roof.
+          Serving patients with advanced diagnostic technology since day one.
+        </p>
+        <div class="hero__ctas">
+          <a href="#contact" class="btn btn--primary btn--lg">Book a Test</a>
+          <a href="tel:+919999999999" class="btn btn--outline-white btn--lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.02 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14v2.92z"/></svg>
+            Call Now
+          </a>
+        </div>
+        <div class="hero__features">
+          <div class="hero__feature"><span>🏠</span> Home Collection</div>
+          <div class="hero__feature"><span>📋</span> Online Reports</div>
+          <div class="hero__feature"><span>⚡</span> Same-Day Results</div>
+        </div>
+      </div>
+      <!-- Scroll indicator -->
+      <a href="#stats" class="hero__scroll" aria-label="Scroll down">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+      </a>
+    </section>
+
+    <!-- ============================================================
+         STATS BAR
+    ============================================================ -->
+    <section class="stats" id="stats" aria-label="Key statistics">
+      <div class="container stats__grid">
+        <div class="stat-card">
+          <div class="stat-card__number" data-target="50000" data-suffix="+">0</div>
+          <div class="stat-card__label">Satisfied Patients</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__number" data-target="500" data-suffix="+">0</div>
+          <div class="stat-card__label">Tests Available</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__number" data-target="10" data-suffix="+">0</div>
+          <div class="stat-card__label">Years of Expertise</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__number" data-target="15" data-suffix="+">0</div>
+          <div class="stat-card__label">Expert Specialists</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT SECTION
+    ============================================================ -->
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="container about__grid">
+
+        <!-- Visual -->
+        <div class="about__visual">
+          <div class="about__img-wrap">
+            <!-- Decorative lab illustration -->
+            <svg viewBox="0 0 480 380" fill="none" xmlns="http://www.w3.org/2000/svg" class="about__illustration" aria-hidden="true">
+              <rect width="480" height="380" rx="20" fill="#EAF6F6"/>
+              <!-- Lab bench -->
+              <rect x="40" y="280" width="400" height="20" rx="4" fill="#00A8A8" opacity=".3"/>
+              <!-- Flask 1 -->
+              <path d="M160 180 L160 240 Q160 270 190 270 Q220 270 220 240 L220 180 Z" fill="#00A8A8" opacity=".5"/>
+              <rect x="155" y="170" width="70" height="15" rx="4" fill="#0A2E5C" opacity=".6"/>
+              <!-- Flask 2 -->
+              <path d="M250 200 L250 248 Q250 272 275 272 Q300 272 300 248 L300 200 Z" fill="#0A2E5C" opacity=".4"/>
+              <rect x="245" y="192" width="60" height="12" rx="3" fill="#0A2E5C" opacity=".5"/>
+              <!-- Microscope -->
+              <ellipse cx="380" cy="270" rx="30" ry="8" fill="#0A2E5C" opacity=".4"/>
+              <rect x="372" y="200" width="16" height="70" rx="4" fill="#0A2E5C" opacity=".5"/>
+              <ellipse cx="380" cy="200" rx="20" ry="12" fill="#00A8A8" opacity=".6"/>
+              <rect x="375" y="150" width="6" height="52" rx="3" fill="#0A2E5C" opacity=".7"/>
+              <circle cx="378" cy="148" r="10" fill="#00A8A8" opacity=".7"/>
+              <!-- DNA Helix -->
+              <path d="M60 80 Q80 100 100 80 Q120 60 140 80 Q160 100 180 80" stroke="#00A8A8" stroke-width="3" fill="none"/>
+              <path d="M60 100 Q80 80 100 100 Q120 120 140 100 Q160 80 180 100" stroke="#0A2E5C" stroke-width="3" fill="none"/>
+              <!-- Lines connecting -->
+              <line x1="70" y1="85" x2="70" y2="97" stroke="#999" stroke-width="1.5"/>
+              <line x1="100" y1="80" x2="100" y2="100" stroke="#999" stroke-width="1.5"/>
+              <line x1="130" y1="75" x2="130" y2="105" stroke="#999" stroke-width="1.5"/>
+              <line x1="160" y1="80" x2="160" y2="98" stroke="#999" stroke-width="1.5"/>
+              <!-- Test tubes rack -->
+              <rect x="60" y="200" width="12" height="55" rx="6" fill="#00A8A8" opacity=".7"/>
+              <rect x="80" y="210" width="12" height="45" rx="6" fill="#0A2E5C" opacity=".6"/>
+              <rect x="100" y="205" width="12" height="50" rx="6" fill="#00A8A8" opacity=".5"/>
+              <rect x="55" y="195" width="70" height="8" rx="2" fill="#888" opacity=".4"/>
+              <!-- Accreditation badge -->
+              <circle cx="400" cy="80" r="50" fill="#0A2E5C" opacity=".08"/>
+              <circle cx="400" cy="80" r="42" stroke="#00A8A8" stroke-width="2" fill="none" opacity=".5"/>
+              <text x="400" y="73" text-anchor="middle" font-size="11" fill="#0A2E5C" font-weight="bold" opacity=".8">NABL</text>
+              <text x="400" y="88" text-anchor="middle" font-size="9" fill="#0A2E5C" opacity=".7">Certified</text>
+            </svg>
+          </div>
+          <!-- Floating badge -->
+          <div class="about__badge" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="14" fill="#00A8A8"/><path d="M8 14l4 4 8-8" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div>
+              <strong>NABL Certified</strong>
+              <span>ISO 15189 Standards</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div class="about__content">
+          <div class="section-label">About Us</div>
+          <h2 class="section-heading" id="about-heading">
+            Specialty Diagnostics<br/>with <span class="text-teal">Compassion</span>
+          </h2>
+          <p class="about__text">
+            P3 Health Solutions LLP is a state-of-the-art diagnostic laboratory committed to delivering
+            accurate, reliable, and timely test results. We combine advanced analytical technology with a
+            patient-first approach, making quality healthcare accessible to everyone.
+          </p>
+          <p class="about__text">
+            Our fully automated laboratory is staffed by qualified pathologists, microbiologists, and
+            technicians who uphold the highest standards at every step — from sample collection to report
+            delivery.
+          </p>
+          <ul class="about__highlights">
+            <li>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#00A8A8" opacity=".15"/><path d="M6 10l2.5 2.5L14 7" stroke="#00A8A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Fully automated, NABL-certified laboratory
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#00A8A8" opacity=".15"/><path d="M6 10l2.5 2.5L14 7" stroke="#00A8A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Home sample collection available 7 days a week
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#00A8A8" opacity=".15"/><path d="M6 10l2.5 2.5L14 7" stroke="#00A8A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Digital reports delivered via WhatsApp & email
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="10" fill="#00A8A8" opacity=".15"/><path d="M6 10l2.5 2.5L14 7" stroke="#00A8A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Expert team of pathologists and specialists
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">Book an Appointment</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVICES SECTION
+    ============================================================ -->
+    <section class="services section section--gray" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-intro">
+          <div class="section-label">Our Services</div>
+          <h2 class="section-heading" id="services-heading">
+            Comprehensive Diagnostic <span class="text-teal">Services</span>
+          </h2>
+          <p class="section-sub">From routine blood work to advanced specialty panels — we cover it all with precision and care.</p>
+        </div>
+
+        <div class="services__grid">
+
+          <article class="service-card" tabindex="0">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="32" fill="#EAF6F6"/><path d="M20 32a12 12 0 1024 0 12 12 0 00-24 0z" stroke="#00A8A8" stroke-width="2"/><path d="M32 20v4M32 40v4M20 32h4M40 32h4" stroke="#00A8A8" stroke-width="2" stroke-linecap="round"/><circle cx="32" cy="32" r="4" fill="#00A8A8"/></svg>
+            </div>
+            <h3 class="service-card__title">Haematology</h3>
+            <p class="service-card__desc">Complete blood count, ESR, peripheral smear, coagulation profiles and more.</p>
+          </article>
+
+          <article class="service-card" tabindex="0">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="32" fill="#EAF6F6"/><path d="M24 18h16l4 8H20l4-8z" stroke="#00A8A8" stroke-width="2" stroke-linejoin="round"/><path d="M20 26v20h24V26" stroke="#00A8A8" stroke-width="2"/><path d="M28 32h8M28 38h5" stroke="#00A8A8" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="service-card__title">Biochemistry</h3>
+            <p class="service-card__desc">Liver function, kidney function, lipid profiles, glucose, thyroid, and electrolytes.</p>
+          </article>
+
+          <article class="service-card" tabindex="0">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="32" fill="#EAF6F6"/><ellipse cx="32" cy="32" rx="10" ry="14" stroke="#00A8A8" stroke-width="2"/><path d="M22 32h20M32 18v4M32 42v4" stroke="#00A8A8" stroke-width="2" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#0A2E5C"/></svg>
+            </div>
+            <h3 class="service-card__title">Microbiology</h3>
+            <p class="service-card__desc">Culture &amp; sensitivity, urine culture, blood culture, stool examination, and AFB.</p>
+          </article>
+
+          <article class="service-card" tabindex="0">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="32" fill="#EAF6F6"/><path d="M20 44L32 18l12 26" stroke="#00A8A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 36h16" stroke="#00A8A8" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="service-card__title">Immunology & Serology</h3>
+            <p class="service-card__desc">HIV, HBsAg, HCV, Widal, VDRL, dengue, typhoid, and autoimmune panels.</p>
+          </article>
+
+          <article class="service-card" tabindex="0">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="32" fill="#EAF6F6"/><path d="M20 20h24v24H20z" stroke="#00A8A8" stroke-width="2" rx="2"/><path d="M26 32l4 4 8-8" stroke="#00A8A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="service-card__title">Urine & Stool Analysis</h3>
+            <p class="service-card__desc">Routine urine examination, 24-hr urine tests, occult blood, and stool microscopy.</p>
+          </article>
+
+          <article class="service-card" tabindex="0">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="32" fill="#EAF6F6"/><path d="M32 16c0 0-12 8-12 18a12 12 0 0024 0c0-10-12-18-12-18z" stroke="#00A8A8" stroke-width="2" stroke-linejoin="round"/><path d="M32 28v8M28 36h8" stroke="#00A8A8" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="service-card__title">Home Sample Collection</h3>
+            <p class="service-card__desc">Certified phlebotomists visit your doorstep. Book online or call — available 7 days a week.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         HEALTH PACKAGES
+    ============================================================ -->
+    <section class="packages section" id="packages" aria-labelledby="packages-heading">
+      <div class="container">
+        <div class="section-intro">
+          <div class="section-label">Health Packages</div>
+          <h2 class="section-heading" id="packages-heading">
+            Affordable Wellness <span class="text-teal">Packages</span>
+          </h2>
+          <p class="section-sub">Choose from our carefully curated health checkup packages designed for every age and need.</p>
+        </div>
+
+        <div class="packages__grid">
+
+          <div class="package-card">
+            <div class="package-card__header">
+              <div class="package-card__icon" aria-hidden="true">🔬</div>
+              <h3 class="package-card__name">Basic Health Check</h3>
+              <div class="package-card__price">
+                <span class="package-card__price-value">₹499</span>
+                <span class="package-card__price-label">onwards</span>
+              </div>
+            </div>
+            <ul class="package-card__tests" aria-label="Tests included">
+              <li>Complete Blood Count (CBC)</li>
+              <li>Blood Glucose (Fasting)</li>
+              <li>Urine Routine</li>
+              <li>ESR</li>
+              <li>Total Cholesterol</li>
+            </ul>
+            <div class="package-card__meta">5 Tests Included</div>
+            <a href="#contact" class="btn btn--outline-teal btn--full">Book Now</a>
+          </div>
+
+          <div class="package-card package-card--featured">
+            <div class="package-card__badge">Most Popular</div>
+            <div class="package-card__header">
+              <div class="package-card__icon" aria-hidden="true">💊</div>
+              <h3 class="package-card__name">Advanced Health Check</h3>
+              <div class="package-card__price">
+                <span class="package-card__price-value">₹999</span>
+                <span class="package-card__price-label">onwards</span>
+              </div>
+            </div>
+            <ul class="package-card__tests" aria-label="Tests included">
+              <li>All Basic Tests</li>
+              <li>Lipid Profile</li>
+              <li>Liver Function Test (LFT)</li>
+              <li>Kidney Function Test (KFT)</li>
+              <li>Thyroid (TSH)</li>
+              <li>HbA1c</li>
+            </ul>
+            <div class="package-card__meta">15 Tests Included</div>
+            <a href="#contact" class="btn btn--primary btn--full">Book Now</a>
+          </div>
+
+          <div class="package-card">
+            <div class="package-card__header">
+              <div class="package-card__icon" aria-hidden="true">🏥</div>
+              <h3 class="package-card__name">Full Body Checkup</h3>
+              <div class="package-card__price">
+                <span class="package-card__price-value">₹1,799</span>
+                <span class="package-card__price-label">onwards</span>
+              </div>
+            </div>
+            <ul class="package-card__tests" aria-label="Tests included">
+              <li>All Advanced Tests</li>
+              <li>Vitamin D &amp; B12</li>
+              <li>Iron Studies</li>
+              <li>Uric Acid</li>
+              <li>PSA / CA-125</li>
+              <li>ECG &amp; Chest X-Ray</li>
+            </ul>
+            <div class="package-card__meta">35+ Tests Included</div>
+            <a href="#contact" class="btn btn--outline-teal btn--full">Book Now</a>
+          </div>
+
+          <div class="package-card">
+            <div class="package-card__header">
+              <div class="package-card__icon" aria-hidden="true">👩</div>
+              <h3 class="package-card__name">Women's Wellness</h3>
+              <div class="package-card__price">
+                <span class="package-card__price-value">₹1,299</span>
+                <span class="package-card__price-label">onwards</span>
+              </div>
+            </div>
+            <ul class="package-card__tests" aria-label="Tests included">
+              <li>CBC + ESR</li>
+              <li>Thyroid Profile (T3, T4, TSH)</li>
+              <li>Pap Smear</li>
+              <li>Iron + Vitamin D</li>
+              <li>Hormonal Profile (FSH, LH)</li>
+              <li>Breast Sonography</li>
+            </ul>
+            <div class="package-card__meta">20+ Tests Included</div>
+            <a href="#contact" class="btn btn--outline-teal btn--full">Book Now</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHY CHOOSE US
+    ============================================================ -->
+    <section class="why-us section section--dark" id="why-us" aria-labelledby="why-us-heading">
+      <div class="container">
+        <div class="section-intro section-intro--light">
+          <div class="section-label section-label--light">Why Choose Us</div>
+          <h2 class="section-heading section-heading--light" id="why-us-heading">
+            Quality You Can <span class="text-teal">Count On</span>
+          </h2>
+          <p class="section-sub section-sub--light">We are driven by a commitment to accuracy, speed, and patient satisfaction at every step.</p>
+        </div>
+
+        <div class="why-us__grid">
+
+          <div class="why-card">
+            <div class="why-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="28" cy="28" r="28" fill="#00A8A8" opacity=".15"/><path d="M28 14l3.5 7 7.5 1.1-5.5 5.3 1.3 7.6L28 31.5l-6.8 3.5 1.3-7.6-5.5-5.3 7.5-1.1z" stroke="#00A8A8" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="why-card__title">NABL Accredited</h3>
+            <p class="why-card__desc">Our laboratory meets the highest national accreditation standards, ensuring every result is credible and reliable.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="28" cy="28" r="28" fill="#00A8A8" opacity=".15"/><circle cx="28" cy="28" r="10" stroke="#00A8A8" stroke-width="2"/><path d="M28 18v10l6 4" stroke="#00A8A8" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="why-card__title">Fastest Turnaround</h3>
+            <p class="why-card__desc">Routine reports within 4–6 hours. Urgent reports processed with top priority to support timely clinical decisions.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="28" cy="28" r="28" fill="#00A8A8" opacity=".15"/><circle cx="28" cy="22" r="6" stroke="#00A8A8" stroke-width="2"/><path d="M16 42c0-6.627 5.373-12 12-12s12 5.373 12 12" stroke="#00A8A8" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="why-card__title">Expert Team</h3>
+            <p class="why-card__desc">Our qualified pathologists, microbiologists, and lab technicians bring years of hands-on diagnostic expertise.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="28" cy="28" r="28" fill="#00A8A8" opacity=".15"/><rect x="16" y="20" width="24" height="18" rx="2" stroke="#00A8A8" stroke-width="2"/><path d="M22 20v-3a6 6 0 0112 0v3" stroke="#00A8A8" stroke-width="2"/><path d="M28 30v-3" stroke="#00A8A8" stroke-width="2" stroke-linecap="round"/><circle cx="28" cy="31" r="2" fill="#00A8A8"/></svg>
+            </div>
+            <h3 class="why-card__title">Advanced Technology</h3>
+            <p class="why-card__desc">Fully automated analysers and LIS (Laboratory Information System) eliminate manual errors and ensure precision.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="28" cy="28" r="28" fill="#00A8A8" opacity=".15"/><path d="M18 38V26l10-10 10 10v12H32v-7h-8v7z" stroke="#00A8A8" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="why-card__title">Home Collection</h3>
+            <p class="why-card__desc">Certified phlebotomists at your doorstep. No need to travel — we come to you, 7 days a week.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="28" cy="28" r="28" fill="#00A8A8" opacity=".15"/><rect x="16" y="18" width="14" height="20" rx="2" stroke="#00A8A8" stroke-width="2"/><path d="M30 22h6M30 27h6M30 32h4" stroke="#00A8A8" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="why-card__title">Digital Reports</h3>
+            <p class="why-card__desc">Receive your reports instantly via WhatsApp, email, or through our secure online portal — anytime, anywhere.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         TESTIMONIALS
+    ============================================================ -->
+    <section class="testimonials section" id="testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-intro">
+          <div class="section-label">Patient Reviews</div>
+          <h2 class="section-heading" id="testimonials-heading">
+            What Our Patients <span class="text-teal">Say</span>
+          </h2>
+          <p class="section-sub">Real feedback from real patients — their trust keeps us going.</p>
+        </div>
+
+        <div class="testimonials__slider" id="testimonialsSlider">
+          <div class="testimonials__track" id="testimonialsTrack">
+
+            <article class="testimonial-card">
+              <div class="testimonial-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <blockquote class="testimonial-card__quote">
+                "Excellent service from start to finish. The staff were extremely professional and the home collection was very convenient. Reports arrived on WhatsApp within hours — highly recommended!"
+              </blockquote>
+              <footer class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">R</div>
+                <div>
+                  <cite class="testimonial-card__name">Rahul Sharma</cite>
+                  <span class="testimonial-card__location">Delhi</span>
+                </div>
+              </footer>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <blockquote class="testimonial-card__quote">
+                "Very hygienic facility and the queue management was well-organised. The phlebotomist was gentle and skilled — my elderly mother didn't feel any discomfort at all."
+              </blockquote>
+              <footer class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">P</div>
+                <div>
+                  <cite class="testimonial-card__name">Priya Mehta</cite>
+                  <span class="testimonial-card__location">Noida</span>
+                </div>
+              </footer>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <blockquote class="testimonial-card__quote">
+                "I needed urgent pre-surgery blood tests and P3 delivered all reports within 3 hours. The lab is well-equipped and the doctor's comment on the report was very helpful."
+              </blockquote>
+              <footer class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">A</div>
+                <div>
+                  <cite class="testimonial-card__name">Arun Verma</cite>
+                  <span class="testimonial-card__location">Gurgaon</span>
+                </div>
+              </footer>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-card__stars" aria-label="4 out of 5 stars">★★★★☆</div>
+              <blockquote class="testimonial-card__quote">
+                "Affordable full-body checkup package compared to other labs. Staff is courteous and the waiting area is clean and comfortable. Will visit again for my annual checkup."
+              </blockquote>
+              <footer class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">S</div>
+                <div>
+                  <cite class="testimonial-card__name">Sunita Kapoor</cite>
+                  <span class="testimonial-card__location">Faridabad</span>
+                </div>
+              </footer>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <blockquote class="testimonial-card__quote">
+                "Fast, accurate, and affordable. The online report download feature is a great touch. Booked through the website and the whole experience was seamless. 10/10."
+              </blockquote>
+              <footer class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">M</div>
+                <div>
+                  <cite class="testimonial-card__name">Mohammed Farid</cite>
+                  <span class="testimonial-card__location">Delhi</span>
+                </div>
+              </footer>
+            </article>
+
+          </div><!-- /track -->
+        </div><!-- /slider -->
+
+        <!-- Slider Controls -->
+        <div class="testimonials__controls" aria-label="Testimonial navigation">
+          <button class="testimonial-btn testimonial-btn--prev" id="prevBtn" aria-label="Previous review">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <div class="testimonials__dots" id="testimonialsDots" role="tablist" aria-label="Testimonial slides"></div>
+          <button class="testimonial-btn testimonial-btn--next" id="nextBtn" aria-label="Next review">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         GALLERY
+    ============================================================ -->
+    <section class="gallery section section--gray" id="gallery" aria-labelledby="gallery-heading">
+      <div class="container">
+        <div class="section-intro">
+          <div class="section-label">Our Facility</div>
+          <h2 class="section-heading" id="gallery-heading">
+            A Look Inside <span class="text-teal">P3 Labs</span>
+          </h2>
+          <p class="section-sub">Modern equipment, hygienic spaces, and a welcoming environment — built with your safety in mind.</p>
+        </div>
+
+        <div class="gallery__grid">
+          <!-- Gallery placeholders with SVG illustrations -->
+          <div class="gallery-item gallery-item--wide" tabindex="0" role="img" aria-label="Main laboratory workstation">
+            <div class="gallery-item__inner">
+              <svg viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="400" height="220" fill="#d0eef0"/>
+                <rect x="20" y="150" width="360" height="20" rx="4" fill="#00A8A8" opacity=".3"/>
+                <rect x="40" y="80" width="80" height="70" rx="6" fill="#0A2E5C" opacity=".2"/>
+                <rect x="50" y="90" width="60" height="40" rx="3" fill="#00A8A8" opacity=".4"/>
+                <rect x="150" y="100" width="40" height="50" rx="3" fill="#0A2E5C" opacity=".25"/>
+                <rect x="210" y="90" width="60" height="60" rx="4" fill="#00A8A8" opacity=".2"/>
+                <rect x="300" y="95" width="60" height="55" rx="4" fill="#0A2E5C" opacity=".2"/>
+                <text x="200" y="195" text-anchor="middle" font-size="13" fill="#0A2E5C" opacity=".6" font-family="Inter,sans-serif">Main Laboratory</text>
+              </svg>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0" role="img" aria-label="Sample collection area">
+            <div class="gallery-item__inner">
+              <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="200" height="200" fill="#e8f4f8"/>
+                <circle cx="100" cy="80" r="35" fill="#00A8A8" opacity=".2"/>
+                <circle cx="100" cy="80" r="20" fill="#00A8A8" opacity=".4"/>
+                <rect x="60" y="130" width="80" height="40" rx="4" fill="#0A2E5C" opacity=".15"/>
+                <text x="100" y="185" text-anchor="middle" font-size="11" fill="#0A2E5C" opacity=".6" font-family="Inter,sans-serif">Collection Area</text>
+              </svg>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0" role="img" aria-label="Automated analysers">
+            <div class="gallery-item__inner">
+              <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="200" height="200" fill="#eaf6f0"/>
+                <rect x="40" y="50" width="120" height="100" rx="8" fill="#0A2E5C" opacity=".15"/>
+                <rect x="55" y="65" width="90" height="60" rx="4" fill="#00A8A8" opacity=".35"/>
+                <rect x="65" y="75" width="70" height="40" rx="2" fill="#fff" opacity=".5"/>
+                <circle cx="100" cy="130" r="8" fill="#00A8A8" opacity=".5"/>
+                <text x="100" y="175" text-anchor="middle" font-size="11" fill="#0A2E5C" opacity=".6" font-family="Inter,sans-serif">Automated Analysers</text>
+              </svg>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0" role="img" aria-label="Waiting lounge">
+            <div class="gallery-item__inner">
+              <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="200" height="200" fill="#f0eaf6"/>
+                <rect x="20" y="120" width="50" height="40" rx="6" fill="#0A2E5C" opacity=".2"/>
+                <rect x="80" y="120" width="50" height="40" rx="6" fill="#0A2E5C" opacity=".2"/>
+                <rect x="140" y="120" width="40" height="40" rx="6" fill="#0A2E5C" opacity=".2"/>
+                <rect x="20" y="158" width="160" height="8" rx="2" fill="#00A8A8" opacity=".3"/>
+                <text x="100" y="185" text-anchor="middle" font-size="11" fill="#0A2E5C" opacity=".6" font-family="Inter,sans-serif">Waiting Lounge</text>
+              </svg>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0" role="img" aria-label="Report delivery counter">
+            <div class="gallery-item__inner">
+              <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="200" height="200" fill="#f6f0ea"/>
+                <rect x="30" y="70" width="140" height="90" rx="6" fill="#0A2E5C" opacity=".12"/>
+                <rect x="45" y="85" width="110" height="60" rx="3" fill="#00A8A8" opacity=".25"/>
+                <path d="M70 120l20 15 40-25" stroke="#0A2E5C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".5"/>
+                <text x="100" y="185" text-anchor="middle" font-size="11" fill="#0A2E5C" opacity=".6" font-family="Inter,sans-serif">Report Delivery</text>
+              </svg>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT / BOOK TEST
+    ============================================================ -->
+    <section class="contact section" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact__grid">
+
+        <!-- Info Column -->
+        <div class="contact__info">
+          <div class="section-label">Get in Touch</div>
+          <h2 class="section-heading" id="contact-heading">
+            Book a Test or <span class="text-teal">Enquire</span>
+          </h2>
+          <p class="contact__desc">Fill in the form and our team will get back to you within 30 minutes. For urgent bookings, call us directly.</p>
+
+          <div class="contact__details">
+            <div class="contact-detail">
+              <div class="contact-detail__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.02 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14v2.92z"/></svg>
+              </div>
+              <div>
+                <strong>Phone</strong>
+                <a href="tel:+919999999999">+91 99999 99999</a>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:info@p3healthsolutions.com">info@p3healthsolutions.com</a>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <strong>Address</strong>
+                <span>P3 Health Solutions LLP,<br/>Your City, State – PIN Code</span>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <strong>Lab Hours</strong>
+                <span>Mon–Sat: 7:00 AM – 8:00 PM<br/>Sunday: 8:00 AM – 2:00 PM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Column -->
+        <div class="contact__form-wrap">
+          <form class="contact-form" id="contactForm" novalidate aria-label="Book a test form">
+            <h3 class="contact-form__title">Book Your Test</h3>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="name">Full Name <span aria-hidden="true">*</span></label>
+                <input class="form-input" type="text" id="name" name="name" placeholder="Your full name" required autocomplete="name" />
+                <span class="form-error" id="nameError" role="alert"></span>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="phone">Phone Number <span aria-hidden="true">*</span></label>
+                <input class="form-input" type="tel" id="phone" name="phone" placeholder="+91 00000 00000" required autocomplete="tel" />
+                <span class="form-error" id="phoneError" role="alert"></span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="email">Email Address</label>
+                <input class="form-input" type="email" id="email" name="email" placeholder="you@email.com" autocomplete="email" />
+                <span class="form-error" id="emailError" role="alert"></span>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="date">Preferred Date <span aria-hidden="true">*</span></label>
+                <input class="form-input" type="date" id="date" name="date" required />
+                <span class="form-error" id="dateError" role="alert"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="test">Test / Package Required <span aria-hidden="true">*</span></label>
+              <select class="form-input form-select" id="test" name="test" required>
+                <option value="">-- Select a test or package --</option>
+                <optgroup label="Individual Tests">
+                  <option>Complete Blood Count (CBC)</option>
+                  <option>Lipid Profile</option>
+                  <option>Thyroid Profile</option>
+                  <option>Liver Function Test (LFT)</option>
+                  <option>Kidney Function Test (KFT)</option>
+                  <option>HbA1c</option>
+                  <option>Vitamin D</option>
+                  <option>Vitamin B12</option>
+                  <option>Urine Routine</option>
+                </optgroup>
+                <optgroup label="Health Packages">
+                  <option>Basic Health Check (₹499)</option>
+                  <option>Advanced Health Check (₹999)</option>
+                  <option>Full Body Checkup (₹1,799)</option>
+                  <option>Women's Wellness (₹1,299)</option>
+                </optgroup>
+                <option value="other">Other / Not Listed</option>
+              </select>
+              <span class="form-error" id="testError" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="collection">Collection Type</label>
+              <div class="form-radio-group" role="radiogroup" aria-labelledby="collection-label">
+                <span id="collection-label" class="sr-only">Collection type</span>
+                <label class="form-radio">
+                  <input type="radio" name="collection" value="walk-in" checked />
+                  <span>Walk-In</span>
+                </label>
+                <label class="form-radio">
+                  <input type="radio" name="collection" value="home" />
+                  <span>Home Collection</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="message">Additional Notes</label>
+              <textarea class="form-input form-textarea" id="message" name="message" placeholder="Any specific requirements, symptoms, or notes for our team..." rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full btn--lg" id="submitBtn">
+              Submit Booking Request
+            </button>
+
+            <!-- Success message -->
+            <div class="form-success" id="formSuccess" role="status" aria-live="polite" hidden>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#00A8A8" opacity=".15"/><path d="M7 12l3.5 3.5L17 8" stroke="#00A8A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Thank you! Your booking request has been received. We'll contact you shortly to confirm.
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container footer__grid">
+
+      <div class="footer__brand">
+        <a href="#home" class="logo logo--light" aria-label="P3 Health Solutions Home">
+          <div class="logo__icon" aria-hidden="true">
+            <svg width="36" height="36" viewBox="0 0 42 42" fill="none"><circle cx="21" cy="21" r="21" fill="#00A8A8"/><path d="M21 8v26M8 21h26" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/><circle cx="21" cy="21" r="7" stroke="#fff" stroke-width="2"/></svg>
+          </div>
+          <div class="logo__text">
+            <span class="logo__name">P3 Health Solutions</span>
+            <span class="logo__tagline">LLP</span>
+          </div>
+        </a>
+        <p class="footer__about">Committed to accurate diagnostics and compassionate patient care. Your health is our mission.</p>
+        <div class="footer__social" aria-label="Social media links">
+          <a href="#" class="social-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer__nav" aria-label="Quick links">
+        <h3 class="footer__nav-title">Quick Links</h3>
+        <ul class="footer__nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#packages">Health Packages</a></li>
+          <li><a href="#why-us">Why Choose Us</a></li>
+          <li><a href="#contact">Book a Test</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__nav">
+        <h3 class="footer__nav-title">Our Services</h3>
+        <ul class="footer__nav-list">
+          <li><a href="#services">Haematology</a></li>
+          <li><a href="#services">Biochemistry</a></li>
+          <li><a href="#services">Microbiology</a></li>
+          <li><a href="#services">Immunology &amp; Serology</a></li>
+          <li><a href="#services">Urine &amp; Stool Analysis</a></li>
+          <li><a href="#services">Home Collection</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact">
+        <h3 class="footer__nav-title">Contact Us</h3>
+        <address class="footer__address">
+          <p>P3 Health Solutions LLP<br/>Your City, State – PIN Code</p>
+          <p><a href="tel:+919999999999">+91 99999 99999</a></p>
+          <p><a href="mailto:info@p3healthsolutions.com">info@p3healthsolutions.com</a></p>
+          <p class="footer__hours">
+            <strong>Lab Hours</strong><br/>
+            Mon–Sat: 7:00 AM – 8:00 PM<br/>
+            Sunday: 8:00 AM – 2:00 PM
+          </p>
+        </address>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; <span id="year"></span> P3 Health Solutions LLP. All rights reserved.</p>
+        <p>Designed with care for your health.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/919999999999" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
